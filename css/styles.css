@@ -58,6 +58,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+    text-align: center;
 }
 
 .lobby h1 {
@@ -66,160 +67,170 @@ body {
     font-size: 3.8rem;
     color: white;
     letter-spacing: 1px;
+    text-align: center;
 }
 
+.lobbyimage {
+    width: fit-content;
+    overflow-x: hidden;
+}
 /* Portfolio section */
 .homeport {
-  position: relative;
-  margin-top: 100vh;
-  width: 100%;
-  min-height: 100vh;
-  background-color: #0a0a0a; /* deep charcoal instead of gray */
-  color: #fff;
-  padding: 100px 0 120px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  overflow: hidden;
+    position: relative;
+    margin-top: 100vh;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0a0a0a;
+    /* deep charcoal instead of gray */
+    color: #fff;
+    padding: 100px 0 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
 }
 
 /* Section title/subtitle styling */
 .homeport .section-title {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  font-size: 2.6rem;
-  text-align: center;
-  margin-bottom: 0.25rem;
-  letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.6rem;
+    text-align: center;
+    margin-bottom: 0.25rem;
+    letter-spacing: 1px;
 }
 
 .homeport .section-subtitle {
-  text-align: center;
-  font-weight: 300;
-  font-size: 1rem;
-  color: #bdbdbd;
-  margin-bottom: 3rem;
-  letter-spacing: 0.5px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #bdbdbd;
+    margin-bottom: 3rem;
+    letter-spacing: 0.5px;
 }
 
 /* Gallery grid */
 .homeport .row {
-  width: 90%;
-  max-width: 1300px;
-  margin: 0 auto;
+    width: 90%;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 /* Individual cards */
 .homeport .port-card {
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px;
-  background-color: #111;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #111;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    text-align: center;
 }
 
 .homeport .port-card img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  filter: brightness(80%);
-  transition: transform 0.6s ease, filter 0.6s ease;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(80%);
+    transition: transform 0.6s ease, filter 0.6s ease;
 }
 
 /* Hover effect */
 .homeport .port-card:hover img {
-  transform: scale(1.08);
-  filter: brightness(100%);
+    transform: scale(1.08);
+    filter: brightness(100%);
 }
 
 .homeport .port-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.7);
+    transform: translateY(-6px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.7);
 }
 
 /* Responsive spacing */
 @media (max-width: 992px) {
-  .homeport {
-    padding: 80px 0;
-  }
-  .homeport .section-title {
-    font-size: 2.2rem;
-  }
+    .homeport {
+        padding: 80px 0;
+    }
+
+    .homeport .section-title {
+        font-size: 2.2rem;
+    }
 }
 
 @media (max-width: 576px) {
-  .homeport .row {
-    width: 95%;
-  }
+    .homeport .row {
+        width: 95%;
+    }
 }
 
 /* Text overlay in center of each image */
 .port-card {
-  position: relative;
-  overflow: hidden;
-  border-radius: 10px;
-  background-color: #111;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #111;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 .port-card img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  filter: brightness(70%);
-  transition: transform 0.6s ease, filter 0.6s ease;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+    transition: transform 0.6s ease, filter 0.6s ease;
 }
 
 /* Text box styling */
 .port-card .overlay-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 1.5rem;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  background: rgba(0, 0, 0, 0.5); /* translucent background box */
-  padding: 10px 20px;
-  border-radius: 8px;
-  opacity: 0;
-  transition: opacity 0.4s ease, transform 0.4s ease;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0.5);
+    /* translucent background box */
+    padding: 10px 20px;
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 0.4s ease, transform 0.4s ease;
 }
 
 /* Hover effect – show text and zoom image */
 .port-card:hover img {
-  transform: scale(1.08);
-  filter: brightness(100%);
+    transform: scale(1.08);
+    filter: brightness(100%);
 }
 
 .port-card:hover .overlay-text {
-  opacity: 1;
-  transform: translate(-50%, -50%) scale(1.05);
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.05);
 }
 
 /* Optional: subtle glow on text */
 .port-card .overlay-text::after {
-  content: "";
-  display: block;
-  position: absolute;
-  inset: 0;
-  border-radius: 8px;
-  box-shadow: 0 0 15px rgba(255,255,255,0.1);
-  pointer-events: none;
+    content: "";
+    display: block;
+    position: absolute;
+    inset: 0;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+    pointer-events: none;
 }
 
 .about {
-  position: relative;
-  width: 100%;
-  height: 100vh;
-  background-color: white; /* deep charcoal instead of gray */
-  color: #fff;
-  display: flex;
-  flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    /* deep charcoal instead of gray */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
 }
 
 
