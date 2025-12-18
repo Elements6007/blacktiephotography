@@ -18,10 +18,11 @@ body {
 
 .navbar {
     position: fixed;
-    background-color: #000000;
+    background-color: transparent;
     transition: 0.5s;
     z-index: 1;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Work Sans", sans-serif;
+    font-style: bold;
 }
 
 .navbar {
@@ -35,7 +36,8 @@ body {
     font-size: .9em;
     font-weight: 300;
     text-transform: uppercase;
-    font-family: sans-serif;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
 }
 
 .nav-link {
@@ -71,7 +73,7 @@ body {
 }
 
 .lobbyimage {
-    width: fit-content;
+    height: 100vh;
     overflow-x: hidden;
 }
 /* Portfolio section */
