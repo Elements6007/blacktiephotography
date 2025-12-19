@@ -68,15 +68,16 @@ body {
 
 .lobby {
     width: 100%;
-    text-align: center;
     height: 100vh;
     background-image: url("/images/515498964_122117926868894330_5275967619635924826_n.jpg");
     background-size: 90vh;
-    background-position: 50% center; /* focal point */
+    background-position: 50% center;
+    /* focal point */
     background-repeat: no-repeat;
     animation-name: rise-in;
-  animation-duration: 1s; /* Or any desired duration */
-  animation-fill-mode: forwards;
+    animation-duration: 1s;
+    /* Or any desired duration */
+    animation-fill-mode: forwards;
 }
 
 .lobby h1 {
@@ -86,27 +87,60 @@ body {
     color: white;
     letter-spacing: 1px;
     text-align: center;
-    
+
+}
+
+.block-spacer {
+    display: block;
+    width: 100vw;
+    background-color: #0f0f0f;
+    height: 5vh;
+
+}
+
+.block-content {
+    display: grid;
+
+}
+
+.block-info {
+    display: block;
+    width: 100vw;
+    background-color: #0f0f0f;
+}
+
+.block-text {
+    display: flex;
+    justify-content: center;
+}
+
+.block-element {
+    display: block;
+}
+
+.block-element>img {
+    display: block;
+    justify-content: left;
+    width: 45%;
+    border-radius: 0px 15px 15px;
 }
 
 
-/* Portfolio section */
+/* Portfolio section 
 .homeport {
     position: relative;
     margin-top: 100vh;
     width: 100%;
     min-height: 100vh;
     background-color: #0a0a0a;
-    /* deep charcoal instead of gray */
     color: #fff;
     padding: 100px 0 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-}
+} 
 
-/* Section title/subtitle styling */
 .homeport .section-title {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -124,8 +158,8 @@ body {
     margin-bottom: 3rem;
     letter-spacing: 0.5px;
 }
+*/
 
-/* Gallery grid */
 .homeport .row {
     width: 90%;
     max-width: 1300px;
