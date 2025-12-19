@@ -13,10 +13,24 @@
     }
 }
 
-@media screen and (max-width: 600px) {
-  .lobby {
-        background-size: 30vh;
-  }
+@media screen and (max-width: 700px) {
+    .lobby {
+        background-image: url("https://raw.githubusercontent.com/Elements6007/blacktiephotography/refs/heads/candid/images/515498964_122117926868894330_5275967619635924826_n.jpg");
+        background-size: 60vh;
+        object-fit: cover;
+        background-position: 50% center;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .lobby {
+        background-image: url("https://raw.githubusercontent.com/Elements6007/blacktiephotography/refs/heads/candid/images/515498964_122117926868894330_5275967619635924826_n.jpg");
+        background-size: 90vh;
+        object-fit: cover;
+        background-position: 50% center;
+        background-repeat: no-repeat;
+    }
 }
 
 * {
@@ -78,11 +92,6 @@ body {
     display: block;
     width: 100%;
     height: 100vh;
-    background-image: url("https://raw.githubusercontent.com/Elements6007/blacktiephotography/refs/heads/candid/images/515498964_122117926868894330_5275967619635924826_n.jpg");
-    background-size: 90vh;
-    object-fit: cover;
-    background-position: 50% center;
-    background-repeat: no-repeat;
     animation-name: rise-in;
     animation-duration: 1s;
     animation-fill-mode: forwards;
