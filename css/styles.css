@@ -410,7 +410,7 @@ body {
 }
 
 .contact-description {
-    color: rgb(0, 0, 0);
+    color: #434343;
 }
 
 .form-group-container {
@@ -474,15 +474,49 @@ body {
 
 .block-carosell {
     width: 100%;
-    display: block;
-    float: left;
+    height: 50vh;
+    position: relative;
     text-align: left;
     background-color: #f3f3f3;
+    padding-left: 4px;
+
+
+}
+
+.row-fit {
+    display: inline-grid;
+    flex-wrap: nowrap;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    gap: 5px;
+
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.row-fit>* {
+    min-width: 0;
 }
 
 .block-carosell>img {
-    width: 10%;
+    aspect-ratio: 1/1;
+    flex: 1 1 0;
+    min-width: 0;
+    width: auto;
+    height: 10%;
+    object-fit: cover;
+    /*filter: grayscale(5%);*/
+    transition: filter 0.5s;
+
 }
+
+.block-carosell>img:hover {
+    filter: grayscale(70%);
+}
+
+
+
 
 /* page content
 
@@ -825,6 +859,8 @@ body {
         padding: 5px;
         background-color: #F3F3F3;
     }
+
+
 }
 
 @media screen and (min-width: 700px) {
