@@ -211,6 +211,11 @@ body {
     width: 95%;
     justify-self: start;
     z-index: 1;
+    transition: filter 1s;
+}
+
+.offset-1:hover {
+    filter: grayscale(100%)
 }
 
 /* right image overlaps by shifting left/up */
@@ -223,6 +228,7 @@ body {
     position: relative;
     /* needed for z-index to apply reliably */
     filter: grayscale(100%);
+    transition: filter 1s;
 }
 
 .offset {
@@ -230,6 +236,9 @@ body {
     background-color: #F3F3F3;
 }
 
+.offset-2:hover {
+    filter: grayscale(0%);
+}
 
 /*.main-content {
     animation-name: rise-in;
@@ -477,7 +486,6 @@ body {
     height: 50vh;
     position: relative;
     background-color: #f3f3f3;
-    padding-left: 4px;
     overflow: hidden;
 }
 
@@ -915,6 +923,15 @@ body {
         display: none;
     }
 
+    .footer-linker {
+        text-decoration: none;
+        color: #434343d7;
+        font-family: "Work Sans", sans-serif;
+        font-weight: bold;
+        font-size: .9em;
+        letter-spacing: 2%;
+        text-transform: uppercase;
+    }
 
 }
 
