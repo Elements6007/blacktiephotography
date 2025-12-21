@@ -240,6 +240,17 @@ body {
     transition: filter 1s;
 }
 
+/* right image overlaps by shifting left/up */
+.offset-3 {
+    grid-column: 2 / 3;
+    width: 85%;
+    justify-self: start;
+    transform: translate(-30%, -10%);
+    z-index: 2;
+    position: relative;
+    /* needed for z-index to apply reliably */
+}
+
 .offset {
     padding: 10px;
     background-color: #F3F3F3;
@@ -870,6 +881,19 @@ body {
 }
 
 */
+
+.row-portfolio {
+    display: flex;
+}
+
+.block-image-port {
+    display: flex;
+    align-items: center;
+}
+
+.block-image-port>img {
+    width: 50%;
+}
 
 
 @media screen and (max-width: 700px) {
