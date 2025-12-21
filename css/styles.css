@@ -911,8 +911,16 @@ body {
     }
 
     .lobby-port {
-        background-image: url("/images/spec/515506930_122117926850894330_453902333349712970_n.jpg");
-        background-size: 90vh;
+        background-image: url("https://raw.githubusercontent.com/Elements6007/blacktiephotography/refs/heads/main/images/spec/515506930_122117926850894330_453902333349712970_n.jpg");
+        background-size: 60vh;
+        object-fit: cover;
+        background-position: 50% center;
+        background-repeat: no-repeat;
+    }
+
+    .lobby-about {
+        background-image: url("https://raw.githubusercontent.com/Elements6007/blacktiephotography/refs/heads/main/images/spec/515490144_122117926886894330_1538118613902879181_n.jpg");
+        background-size: 60vh;
         object-fit: cover;
         background-position: 50% center;
         background-repeat: no-repeat;
@@ -992,7 +1000,15 @@ body {
     }
 
     .lobby-port {
-        background-image: url("/images/spec/515506930_122117926850894330_453902333349712970_n.jpg");
+        background-image: url("https://raw.githubusercontent.com/Elements6007/blacktiephotography/refs/heads/main/images/spec/515506930_122117926850894330_453902333349712970_n.jpg");
+        background-size: 90vh;
+        object-fit: cover;
+        background-position: 50% center;
+        background-repeat: no-repeat;
+    }
+
+    .lobby-about {
+        background-image: url("https://raw.githubusercontent.com/Elements6007/blacktiephotography/refs/heads/main/images/spec/515490144_122117926886894330_1538118613902879181_n.jpg");
         background-size: 90vh;
         object-fit: cover;
         background-position: 50% center;
