@@ -910,6 +910,14 @@ body {
         background-repeat: no-repeat;
     }
 
+    .lobby-port {
+        background-image: url("/images/spec/515506930_122117926850894330_453902333349712970_n.jpg");
+        background-size: 90vh;
+        object-fit: cover;
+        background-position: 50% center;
+        background-repeat: no-repeat;
+    }
+
     .row {
         display: block;
         grid-template-columns: none;
@@ -977,6 +985,14 @@ body {
 @media screen and (min-width: 700px) {
     .lobby {
         background-image: url("https://raw.githubusercontent.com/Elements6007/blacktiephotography/refs/heads/candid/images/515498964_122117926868894330_5275967619635924826_n.jpg");
+        background-size: 90vh;
+        object-fit: cover;
+        background-position: 50% center;
+        background-repeat: no-repeat;
+    }
+
+    .lobby-port {
+        background-image: url("/images/spec/515506930_122117926850894330_453902333349712970_n.jpg");
         background-size: 90vh;
         object-fit: cover;
         background-position: 50% center;
