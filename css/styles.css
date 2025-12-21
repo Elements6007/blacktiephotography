@@ -190,6 +190,15 @@ body {
     padding-left: 5%;
 }
 
+.block-3 {
+    background-color: #f3f3f3;
+}
+
+.block-4 {
+    background-color: #f3f3f3;
+
+}
+
 .cascade-grid {
     max-width: 860px;
     margin: 0 auto;
@@ -943,4 +952,19 @@ body {
         background-position: 50% center;
         background-repeat: no-repeat;
     }
+}
+
+
+.reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition:
+        opacity 0.7s ease,
+        transform 0.7s ease;
+    will-change: transform, opacity;
+}
+
+.reveal.is-visible {
+    opacity: 1;
+    transform: translateY(0);
 }
