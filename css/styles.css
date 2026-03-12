@@ -135,7 +135,7 @@ body {
 }
 
 .block-element>h1 {
-    font-family: "Playfair Display", serif;
+    font-family: 'Sacramento';
     font-style: italic;
     font-weight: bold;
     letter-spacing: 0.02em;
@@ -143,10 +143,19 @@ body {
 }
 
 .info-divider>span {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
     letter-spacing: .2em;
     color: #434343d7;
+}
+
+.kicker {
+    font-family: "Special Elite", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    letter-spacing: .2em;
+
 }
 
 .intro-para {
@@ -902,9 +911,9 @@ body {
 @media screen and (max-width: 700px) {
     .lobby {
         background-image: url("https://raw.githubusercontent.com/Elements6007/blacktiephotography/refs/heads/main/images/_uncompressed%20Adobe%20Lightroom/MAIN.jpg");
-        background-size: 60vh;
+        background-size: 100vh;
         object-fit: cover;
-        background-position: 50% center;
+        background-position: 50% bottom;
         background-repeat: no-repeat;
     }
 
@@ -991,23 +1000,22 @@ body {
 @media screen and (min-width: 700px) {
     .lobby {
         background-image: url("https://raw.githubusercontent.com/Elements6007/blacktiephotography/refs/heads/main/images/_uncompressed%20Adobe%20Lightroom/MAIN.jpg");
-        background-size: 90vh;
-        object-fit: cover;
+        background-size: 100%;
+        object-fit: fill;
         background-position: 50% center;
         background-repeat: no-repeat;
     }
 
     .lobby-port {
-        background-image: url("https://raw.githubusercontent.com/Elements6007/blacktiephotography/refs/heads/main/images/spec/515506930_122117926850894330_453902333349712970_n.jpg");
-        background-size: 90vh;
+        background-image: url("https://raw.githubusercontent.com/Elements6007/blacktiephotography/refs/heads/main/images/_uncompressed%20Adobe%20Lightroom/MAIN.jpg");
         object-fit: cover;
         background-position: 50% center;
         background-repeat: no-repeat;
     }
 
     .lobby-about {
-        background-image: url("https://raw.githubusercontent.com/Elements6007/blacktiephotography/refs/heads/main/images/spec/515490144_122117926886894330_1538118613902879181_n.jpg");
-        background-size: 90vh;
+        background-image: url("https://raw.githubusercontent.com/Elements6007/blacktiephotography/refs/heads/main/images/_uncompressed%20Adobe%20Lightroom/MAIN.jpg");
+        background-size: 100%;
         object-fit: cover;
         background-position: 50% center;
         background-repeat: no-repeat;
