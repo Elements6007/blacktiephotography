@@ -172,13 +172,30 @@ body {
     font-weight: 400;
     letter-spacing: .1em;
     color: #434343d7;
-    width: 95%;
+    width: 100%;
+}
+
+.block-inside>h1 {
+    font-family: "Special Elite", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    letter-spacing: .2em;
 }
 
 .block-introduction {
     text-align: center;
     position: relative;
     padding-top: 20%;
+}
+
+.block-info {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.block-inside {
+    width: 40vw;
 }
 
 .btn {
@@ -944,10 +961,10 @@ body {
 
 
     .lobby-equine {
-        background-image: url("https://raw.githubusercontent.com/Elements6007/blacktiephotography/refs/heads/main/images/_uncompressed%20Adobe%20Lightroom/AB2.jpg");
-        background-size: 100%;
-        object-fit: fill;
-        background-position: 50% center;
+        background-image: url("https://raw.githubusercontent.com/Elements6007/blacktiephotography/refs/heads/main/images/_uncompressed%20Adobe%20Lightroom/MAIN.jpg");
+        background-size: 100vh;
+        object-fit: cover;
+        background-position: 50% bottom;
         background-repeat: no-repeat;
     }
 
@@ -1015,7 +1032,7 @@ body {
 
 }
 
-/*notsure*/
+/*wide screen*/
 
 @media screen and (min-width: 700px) {
     .lobby {
@@ -1047,6 +1064,7 @@ body {
         object-fit: fill;
         background-position: 50% center;
         background-repeat: no-repeat;
+        padding-top: 50vh;
     }
 
 

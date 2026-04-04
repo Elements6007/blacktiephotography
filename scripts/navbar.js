@@ -1,7 +1,7 @@
 var nav = document.querySelector('nav');
 if (document.URL.indexOf("projects") > -1) {
     window.addEventListener('scroll', function () {
-        if (window.pageYOffset > 5) {
+        if (window.pageYOffset > 600) {
             nav.classList.add('bg-dark', 'shadow');
         } else {
             nav.classList.remove('bg-dark', 'shadow');
@@ -9,7 +9,7 @@ if (document.URL.indexOf("projects") > -1) {
     });
 } else {
     window.addEventListener('scroll', function () {
-        if (window.pageYOffset > 5) {
+        if (window.pageYOffset > 600) {
             nav.classList.add('bg-dark', 'shadow');
 
         } else {
