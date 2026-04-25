@@ -108,7 +108,13 @@ body {
 
 .row {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.8fr 1fr;
+}
+
+.about-div {
+    padding-right: 5%;
+    padding-left: 5%;
+
 }
 
 .block-info {
@@ -1030,13 +1036,23 @@ body {
         text-transform: uppercase;
     }
 
+    .about-div>h1 {
+        display: none;
+    }
+
+    .lobby h1 {
+        padding-top: 50%;
+    }
+
+
+
 }
 
 /*wide screen*/
 
 @media screen and (min-width: 700px) {
     .lobby {
-        background-image: url("https://raw.githubusercontent.com/Elements6007/blacktiephotography/refs/heads/main/images/_uncompressed%20Adobe%20Lightroom/MAIN.jpg");
+        background-image: url("https://res.cloudinary.com/du5lzorld/image/upload/f_auto,q_auto/MAIN_ozs2kg");
         background-size: 100%;
         object-fit: fill;
         background-position: 50% center;
@@ -1067,9 +1083,15 @@ body {
         padding-top: 50vh;
     }
 
+    .se-dynamic {
+        display: none;
+    }
 
 }
 
+.navbar-dark .navbar-toggler-icon.navbar-dark-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
 
 .reveal {
     opacity: 0;
