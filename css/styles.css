@@ -1040,7 +1040,12 @@ body {
         display: none;
     }
 
-    
+    .lobby h1 {
+        padding-top: 50%;
+    }
+
+
+
 }
 
 /*wide screen*/
