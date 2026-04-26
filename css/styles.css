@@ -967,7 +967,7 @@ body {
 
 
     .lobby-equine {
-        background-image: url("/images/_uncompressed Adobe Lightroom/MAIN.webp");
+        background-image: url("https://raw.githubusercontent.com/Elements6007/blacktiephotography/refs/heads/main/images/_uncompressed%20Adobe%20Lightroom/MAIN.jpg");
         background-size: 100vh;
         object-fit: cover;
         background-position: 50% bottom;
@@ -1075,7 +1075,7 @@ body {
     }
 
     .lobby-equine {
-        background-image: url("/images/_uncompressed Adobe Lightroom/MAIN.webp");
+        background-image: url("https://raw.githubusercontent.com/Elements6007/blacktiephotography/refs/heads/main/images/_uncompressed%20Adobe%20Lightroom/MAIN.jpg");
         background-size: 100%;
         object-fit: fill;
         background-position: 50% center;
