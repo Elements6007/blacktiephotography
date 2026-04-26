@@ -942,7 +942,7 @@ body {
 
 @media screen and (max-width: 700px) {
     .lobby {
-        background-image: url("https://raw.githubusercontent.com/Elements6007/blacktiephotography/refs/heads/main/images/_uncompressed%20Adobe%20Lightroom/MAIN.jpg");
+        background-image: url("https://res.cloudinary.com/du5lzorld/image/upload/f_auto,q_auto/MAIN_ozs2kg");
         background-size: 100vh;
         object-fit: cover;
         background-position: 50% bottom;
