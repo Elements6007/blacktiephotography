@@ -179,6 +179,7 @@ body {
     letter-spacing: .1em;
     color: #434343d7;
     width: 100%;
+    padding: 5%;
 }
 
 .block-inside>h1 {
