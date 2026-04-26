@@ -942,7 +942,7 @@ body {
 
 @media screen and (max-width: 700px) {
     .lobby {
-        background-image: url("https://res.cloudinary.com/du5lzorld/image/upload/f_auto,q_auto/MAIN_ozs2kg");
+        background-image: url("/images/_uncompressed Adobe Lightroom/MAIN.webp");
         background-size: 100vh;
         object-fit: cover;
         background-position: 50% bottom;
@@ -1052,7 +1052,7 @@ body {
 
 @media screen and (min-width: 700px) {
     .lobby {
-        background-image: url("https://res.cloudinary.com/du5lzorld/image/upload/f_auto,q_auto/MAIN_ozs2kg");
+        background-image: url("/images/_uncompressed Adobe Lightroom/MAIN.webp");
         background-size: 100%;
         object-fit: fill;
         background-position: 50% center;
