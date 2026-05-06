@@ -34,6 +34,11 @@ body {
     margin: 0;
 }
 
+/*BOOTSTRAP REVISION*/
+.bg-dark {
+    background-color: #000000 !important;
+}
+
 @font-face {
     font-family: thesignature;
     /* set name */
@@ -183,9 +188,9 @@ body {
 }
 
 .block-inside>h1 {
-    font-family: "Special Elite", system-ui;
-    font-weight: 200;
-    font-style: normal;
+    font-family: 'thesignature';
+    font-weight: 800;
+    font-style: bold;
     letter-spacing: .2em;
 }
 
