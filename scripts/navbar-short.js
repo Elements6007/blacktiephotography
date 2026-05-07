@@ -4,7 +4,7 @@ var nav = document.querySelector('nav');
 var span = document.querySelector('span');
 if (document.URL.indexOf("projects") > -1) {
     window.addEventListener('scroll', function () {
-        if (window.pageYOffset > 50) {
+        if (window.pageYOffset > 20) {
             navDarken();
 
         } else {
@@ -14,7 +14,7 @@ if (document.URL.indexOf("projects") > -1) {
     });
 } else {
     window.addEventListener('scroll', function () {
-        if (window.pageYOffset > 50) {
+        if (window.pageYOffset > 20) {
             navDarken();
 
         } else {
@@ -53,7 +53,6 @@ function navLighten() {
 
 const navButton = document.getElementsByClassName("navbar-toggler")[0];
 
-// 2. Add the listener
 navButton.addEventListener("click", function () {
     const navButtonStatus = document.getElementsByClassName("navbar-toggler collapsed")[0];
 
