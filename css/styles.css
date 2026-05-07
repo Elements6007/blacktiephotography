@@ -1058,6 +1058,19 @@ body {
         padding-top: 50%;
     }
 
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .offset {
+        order: 1;
+    }
+
+    .block-introduction { 
+        order: 2;
+    }
+
 
 
 }
