@@ -17,7 +17,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-
+    font-family: "Times New Roman", Times, serif;
 }
 
 html {
@@ -53,6 +53,7 @@ body {
     z-index: 1;
     font-family: "Work Sans", sans-serif;
     font-style: bold;
+    color: #F3F3F3;
 }
 
 .navbar {
@@ -95,7 +96,7 @@ body {
 }
 
 .lobby h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-weight: 700;
     font-size: 3.8rem;
     color: white;
@@ -159,7 +160,7 @@ body {
 .block-element>h1 {
     font-family: 'thesignature';
     font-size: 5rem;
-    color: #434343;
+    color: #000000;
 }
 
 .info-divider>span {
@@ -167,7 +168,7 @@ body {
     font-weight: 400;
     font-style: normal;
     letter-spacing: .2em;
-    color: #434343d7;
+    color: #000000;
 }
 
 .kicker {
@@ -179,10 +180,10 @@ body {
 }
 
 .intro-para {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-weight: 400;
     letter-spacing: .1em;
-    color: #434343d7;
+    color: #000000;
     width: 100%;
     padding: 5%;
 }
@@ -221,19 +222,19 @@ body {
     letter-spacing: 0.12em;
     border-radius: 999px;
     transition: all 0.25s ease;
-    color: #434343d7;
+    color: #000000;
     background-color: #F3F3F3;
 }
 
 .btn-secondary {
-    color: #434343d7;
+    color: #000000;
     border: 1px solid rgba(68, 68, 68, 0.45);
 
 }
 
 .btn-secondary:hover {
-    background-color: #434343d7;
-    border-color: rgba(68, 68, 68, 0.7);
+    background-color: #000000;
+    border-color: #000000;
 }
 
 .block-2 {
@@ -488,14 +489,14 @@ body {
 }
 
 .contact-title {
-    font-family: "Playfair Display", serif;
+    font-family: "Times New Roman", Times, serif;
     line-height: 2.25rem;
     font-weight: 700;
-    color: #434343d7;
+    color: #000000;
 }
 
 .contact-description {
-    color: #434343;
+    color: #000000;
 }
 
 .form-group-container {
@@ -517,7 +518,7 @@ body {
 .form-textarea {
     padding: 0.5rem;
     border: 1px solid #e5e7eb;
-    outline: 2px solid #000000;
+    outline: 2px solid #4d4d4d;
     display: flex;
     height: 2.5rem;
     width: 100%;
@@ -528,12 +529,12 @@ body {
 
 .form-input::placeholder,
 .form-textarea:focus-visible {
-    color: #6b7280;
+    color: #4d4d4d;
 }
 
 .form-input:focus-visible,
 .form-textarea:focus-visible {
-    outline: 2px solid #363636;
+    outline: 2px solid #4d4d4d;
     outline-offset: 2px;
 }
 
@@ -544,7 +545,7 @@ body {
 .form-submit {
     width: 100%;
     margin-top: 1.2rem;
-    background-color: #343435;
+    background-color: #000000;
     color: #fff;
     padding: 13px 5px;
     border-radius: 0.375rem;
@@ -604,7 +605,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     background: #f6f4f0;
-    color: #111;
+    color: #000000;
     padding: 18px 36px;
     display: flex;
     gap: 16px;
@@ -1037,8 +1038,8 @@ body {
 
     .footer-linker {
         text-decoration: none;
-        color: #434343d7;
-        font-family: "Work Sans", sans-serif;
+        color: #000000;
+        font-family: "Times New Roman", Times, serif;
         font-weight: bold;
         font-size: .9em;
         letter-spacing: 2%;
