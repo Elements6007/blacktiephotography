@@ -149,9 +149,10 @@ body {
 
 .block-element {
     vertical-align: center;
-    text-align: left;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 .info-divider {
