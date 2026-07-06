@@ -187,7 +187,7 @@
 </body>
 <script>
     async function applyImageConfig() {
-        const response = await fetch("/data/blacktie-images.json", { cache: "no-store" });
+        const response = await fetch("https://console.blacktie-photography.com/data/blacktie-images.json", { cache: "no-store" });
         const config = await response.json();
 
         const images = Object.values(config.sections)
