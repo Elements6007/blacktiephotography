@@ -72,7 +72,9 @@
                     </div>
 
                     <div class="block-element block-image main-content reveal">
-                        <img src="https://res.cloudinary.com/du5lzorld/image/upload/v1777165200/AB2_fhnipe.jpg" />
+                        <img data-image-slot="about.intro.image"
+                            src="https://res.cloudinary.com/du5lzorld/image/upload/v1777165200/AB2_fhnipe.jpg"
+                            alt="Black Tie Photography about portrait sample" />
                     </div>
 
                     <div class="block-element main-content block-introduction block-1 about-div reveal">
@@ -183,6 +185,31 @@
 
 
 </body>
+<script>
+    async function applyImageConfig() {
+        const response = await fetch("/data/blacktie-images.json", { cache: "no-store" });
+        const config = await response.json();
+
+        const images = Object.values(config.sections)
+            .flat()
+            .reduce((lookup, image) => {
+                lookup[image.slot] = image;
+                return lookup;
+            }, {});
+
+        document.querySelectorAll("[data-image-slot]").forEach((element) => {
+            const image = images[element.dataset.imageSlot];
+            if (!image?.src) return;
+
+            element.src = image.src;
+            element.alt = image.alt || element.alt;
+        });
+    }
+
+    applyImageConfig().catch((error) => {
+        console.warn("Image config could not be loaded.", error);
+    });
+</script>
 <script src="scripts/scroll-reveal.js"></script>
 <script src="scripts/navbar-short.js"></script>
 
